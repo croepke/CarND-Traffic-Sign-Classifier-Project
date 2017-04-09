@@ -147,7 +147,7 @@ Here are the results of the prediction:
 | Priority road			| Priority Road|
 
 
-The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. This seems overall not so great, however, it will make sense to look at the probabilities subsquently.
+The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. Compared to the training accuracy of 91.67% these results do not seem overly good. A reason for this lower accuracy might be that the new test images differ from the training/validation/test images by being taken from a different angle or are distorted in the perspective. Similarly, this difference could be a result from the class-imbalance of the training data which gives certain classes more weight in favour of others.
 
 ####Model Certainty - Softmax Probabilities
 
